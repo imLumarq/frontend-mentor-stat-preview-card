@@ -28,6 +28,8 @@ Users should be able to:
 ![iphone-12-pro](./screenshots/iphone-12-pro.png)
 ![ipad-air](./screenshots/ipad-air.png)
 
+### Links
+
 - Solution URL: [https://www.frontendmentor.io/solutions/stat-preview-card-component-v2ywI7MsZQ]
 - Live Site URL: [https://imlumarq.github.io/frontend-mentor-stat-preview-card]
 - Github Repository: [https://github.com/imLumarq/frontend-mentor-stat-preview-card]
