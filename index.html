@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Stat Preview Card</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <div class="card">
+        <section class="card__section">
+          <h1 class="section__heading">
+            Get <span class="heading--span">insights</span> that help your
+            business grow.
+          </h1>
+
+          <p class="section__paragraph">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+
+          <div class="section__stats">
+            <div class="stat__item">
+              <p class="item__para item--bold">10k+</p>
+              <p class="item__para item--uppercase">Companies</p>
+            </div>
+
+            <div class="stat__item">
+              <p class="item__para item--bold">314</p>
+              <p class="item__para item--uppercase">Templates</p>
+            </div>
+
+            <div class="stat__item">
+              <p class="item__para item--bold">12M+</p>
+              <p class="item__para item--uppercase">Queries</p>
+            </div>
+          </div>
+        </section>
+        <picture class="card__image">
+          <!--700px-->
+          <source
+            media="(min-width:43.75em)"
+            srcset="./images/image-header-desktop.jpg"
+          />
+          <img
+            src="./images/image-header-mobile.jpg"
+            alt="banner picture"
+            class="image"
+          />
+        </picture>
+      </div>
+    </main>
+  </body>
+</html>
